@@ -1,0 +1,49 @@
+
+@----------------------------------------------------------@
+|        PLINK!       |     v1.07      |   10/Aug/2009     |
+|----------------------------------------------------------|
+|  (C) 2009 Shaun Purcell, GNU General Public License, v2  |
+|----------------------------------------------------------|
+|  For documentation, citation & bug-report instructions:  |
+|        http://pngu.mgh.harvard.edu/purcell/plink/        |
+@----------------------------------------------------------@
+
+Skipping web check... [ --noweb ] 
+Writing this text to log file [ HapMap_3_r3_4.log ]
+Analysis started: Thu Dec 26 21:25:35 2024
+
+Options in effect:
+	--bfile HapMap_3_r3_3
+	--geno 0.02
+	--make-bed
+	--out HapMap_3_r3_4
+	--noweb
+
+Reading map (extended format) from [ HapMap_3_r3_3.bim ] 
+1457897 markers to be included from [ HapMap_3_r3_3.bim ]
+Reading pedigree information from [ HapMap_3_r3_3.fam ] 
+165 individuals read from [ HapMap_3_r3_3.fam ] 
+112 individuals with nonmissing phenotypes
+Assuming a disease phenotype (1=unaff, 2=aff, 0=miss)
+Missing phenotype value is also -9
+56 cases, 56 controls and 53 missing
+80 males, 85 females, and 0 of unspecified sex
+Reading genotype bitfile from [ HapMap_3_r3_3.bed ] 
+Detected that binary PED file is v1.00 SNP-major mode
+Before frequency and genotyping pruning, there are 1457897 SNPs
+112 founders and 53 non-founders found
+225 heterozygous haploid genotypes; set to missing
+Writing list of heterozygous haploid genotypes to [ HapMap_3_r3_4.hh ]
+Total genotyping rate in remaining individuals is 0.997378
+27454 SNPs failed missingness test ( GENO > 0.02 )
+0 SNPs failed frequency test ( MAF < 0 )
+After frequency and genotyping pruning, there are 1430443 SNPs
+After filtering, 56 cases, 56 controls and 53 missing
+After filtering, 80 males, 85 females, and 0 of unspecified sex
+Writing pedigree information to [ HapMap_3_r3_4.fam ] 
+Writing map (extended format) information to [ HapMap_3_r3_4.bim ] 
+Writing genotype bitfile to [ HapMap_3_r3_4.bed ] 
+Using (default) SNP-major mode
+
+Analysis finished: Thu Dec 26 21:25:47 2024
+
